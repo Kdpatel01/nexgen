@@ -1,0 +1,96 @@
+@media screen and (max-width: 1199.98px) {
+    .main_menu > li
+    {
+        padding: 5px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }    
+    #slider .items .text_box .h1 , #slider .items .text_box_2 .h1 , #slider .items .text_box_3 .h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 938px){
+    #slider .items .text_box_2{
+        left: 20px;
+    }
+}
+
+@media screen and (min-width: 939px) and (max-width:1198px){
+    #slider .items .text_box_2{
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        overflow-x: hidden;
+    }
+    .bottom_header nav {
+        display: none;
+    }
+    #slider .items .text_box {
+        top: 10%;
+        left: 20px;
+        max-width: 380px;
+        overflow: hidden;
+      }
+    #slider .items .text_box .h1 , #slider .items .text_box_2 .h1 , #slider .items .text_box_3 .h1 {
+        font-size: 50px;
+    }
+    #slider .items .text_box p ,  #slider .items .text_box_2 p , #slider .items .text_box_3 p {
+        font-size: 16px;
+    }
+    #slider .items .text_box .button-2 , #slider .items .text_box_2 .button-2,  #slider .items .text_box_3 .button-2 , .button {
+        padding: 15px 25px;
+        margin: 10px 0;
+    }
+    #slider .items .text_box_2 {
+        top: 20%;
+        left: 20px;
+        max-width: 380px;
+        text-align: start;
+        overflow: hidden;
+      }
+    #slider .items .text_box .clike-button , #slider .items .text_box_2 .clike-button , #slider .items .text_box_3 .clike-button {
+        margin-left: 0px;
+        display: block !important;
+    }
+    #slider .items .text_box_3 {
+        float: left;
+        top: 15%;
+        right: 20px;
+        max-width: 380px;
+        overflow: hidden;
+    }
+    #newslider .new_text_box .new_icon_box {
+        transform: translateY(-280px);
+    }
+    #newslider .testimonial-card:hover .new_text_box .new_icon_box {
+        transform: translateY(-50px);
+    }
+}
+
+
+@media screen and (min-width: 576px)
+{
+    .container{width: 540px}
+}
+@media screen and (min-width: 768px)
+{
+    .container{width: 720px}
+}
+@media screen and (min-width: 992px)
+{
+    .container{width: 960px}
+}
+@media screen and (min-width: 1200px)
+{
+    .container{width: 1140px}
+}
+@media screen and (min-width: 1400px)
+{
+    .container{width: 1320px}
+}
